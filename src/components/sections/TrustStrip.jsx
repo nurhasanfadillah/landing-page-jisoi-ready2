@@ -3,15 +3,15 @@ import { Container } from "@/components/ui/Container"
 import { TRUST_ITEMS } from "@/data/landingContent"
 
 const CLIENT_LOGOS = [
-  "/images/logo-klien/gojek.PNG",
-  "/images/logo-klien/shopee.PNG",
-  "/images/logo-klien/bca.PNG",
-  "/images/logo-klien/telkomsel.PNG",
-  "/images/logo-klien/samsung.PNG",
-  "/images/logo-klien/pertamina.PNG",
-  "/images/logo-klien/pln.PNG",
-  "/images/logo-klien/ikea.PNG",
-  "/images/logo-klien/shell.PNG",
+  { src: "/images/logo-klien/gojek.PNG", name: "Gojek" },
+  { src: "/images/logo-klien/shopee.PNG", name: "Shopee" },
+  { src: "/images/logo-klien/bca.PNG", name: "BCA" },
+  { src: "/images/logo-klien/telkomsel.PNG", name: "Telkomsel" },
+  { src: "/images/logo-klien/samsung.PNG", name: "Samsung" },
+  { src: "/images/logo-klien/pertamina.PNG", name: "Pertamina" },
+  { src: "/images/logo-klien/pln.PNG", name: "PLN" },
+  { src: "/images/logo-klien/ikea.PNG", name: "IKEA" },
+  { src: "/images/logo-klien/shell.PNG", name: "Shell" },
 ]
 
 export default function TrustStrip() {
@@ -29,15 +29,15 @@ export default function TrustStrip() {
           <div className="flex gap-8 overflow-x-auto pb-2 md:flex-wrap md:justify-center md:overflow-visible items-center [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
             {CLIENT_LOGOS.map((logo, i) => (
               <motion.img
-                key={logo}
-                src={logo}
-                alt={`Client logo ${i + 1}`}
+                key={logo.src}
+                src={logo.src}
+                alt={`Logo ${logo.name} — klien Jisoi`}
                 loading="lazy"
                 initial={{ opacity: 0, y: 10 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: i * 0.05 }}
-                className="h-8 w-auto object-contain flex-shrink-0 grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100"
+                className="h-12 w-auto object-contain flex-shrink-0 transition-all duration-300 opacity-90 hover:opacity-100 hover:scale-105"
               />
             ))}
           </div>

@@ -18,7 +18,7 @@ export default function Hero() {
             Custom Pouch DTF • Tanpa Minimum Order
           </Badge>
           <h1 className="text-[42px] md:text-[52px] font-display font-bold leading-[1.05] mb-4">
-            Pouch Custom untuk Merchandise Bisnis & Event
+            Cetak Pouch Custom Logo, Tanpa MOQ, Free Mockup — Siap 3–5 Hari
           </h1>
           <p className="text-lg md:text-xl text-white/80 mb-6 max-w-md">
             Cetak logo full color, mockup gratis, harga mulai Rp20.000/pcs, dan siap produksi dari order kecil sampai kebutuhan massal.
@@ -58,7 +58,8 @@ export default function Hero() {
               src="/images/sample-custom-logo-pouch.png"
               alt="Custom Pouch Jisoi dengan Logo - Sample Hasil Cetak DTF"
               className="w-full h-auto rounded-[24px] object-cover"
-              loading="lazy"
+              loading="eager"
+              fetchpriority="high"
             />
             <div className="absolute top-4 right-4 bg-jisoi-amber text-jisoi-burgundy text-[10px] font-bold px-2 py-1 rounded-full">
               Full Color DTF

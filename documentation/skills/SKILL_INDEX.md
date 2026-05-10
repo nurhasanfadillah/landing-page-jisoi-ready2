@@ -11,9 +11,9 @@
 | Location | Skills Count |
 |----------|--------------|
 | OpenCode (`~/.config/opencode/skills/`) | **1,426** |
-| Claude Code (`~/.claude/skills/`) | **81** |
+| Claude Code (`~/.claude/skills/`) | **82** |
 | Agents (`~/.agents/skills/`) | **56** |
-| **Grand Total** | **~1,563** |
+| **Grand Total** | **~1,564** |
 
 ---
 
@@ -164,10 +164,11 @@
 
 ---
 
-## 6. SEO / Marketing (40+ skills)
+## 6. SEO / Marketing (41+ skills)
 
 | Skill | Path | Description |
 |-------|------|-------------|
+| `marketing-strategy-fundamentals` | **claude** | **⭐ FONDASI: Framework lengkap sebelum campaign — demand capture/generation, purchase mode, trigger, awareness level, CEP, 7P, 16-step workflow** |
 | `seo` (umbrella) | opencode | 30+ SEO sub-skills |
 | `seo-page` | opencode | Page SEO |
 | `seo-technical` | opencode | Technical SEO |

@@ -24,11 +24,11 @@ export default function FinalCta() {
             asChild
           >
             <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer">
-              Chat WhatsApp Jisoi
+              Chat WhatsApp — Gratis, Tanpa Komitmen
             </a>
           </Button>
           <p className="text-sm text-white/60 mt-4">
-            Respons untuk konsultasi desain, harga, dan estimasi produksi.
+            Biasanya dibalas dalam beberapa menit · Konsultasi desain, harga & estimasi produksi gratis
           </p>
         </motion.div>
       </Container>

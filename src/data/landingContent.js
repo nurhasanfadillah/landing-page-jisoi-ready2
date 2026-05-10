@@ -26,6 +26,7 @@ export const PRICING = [
     price: "Rp25.000",
     unit: "/pcs",
     bestFor: "Sample, personal use, atau testing desain.",
+    estimasi: "Estimasi 3–5 hari kerja",
     cta: "Chat untuk order kecil",
   },
   {
@@ -33,6 +34,7 @@ export const PRICING = [
     price: "Rp20.000",
     unit: "/pcs",
     bestFor: "Event, merchandise kantor, komunitas, dan reseller.",
+    estimasi: "Estimasi 3–5 hari kerja",
     badge: "Paling hemat",
     cta: "Chat untuk bulk order",
   },
@@ -138,8 +140,8 @@ export const USE_CASES = [
     size: "small",
   },
   {
-    title: "Tampak belakang",
-    copy: "Harga kompetitif untuk kebutuhan stok dan repeat order.",
+    title: "Welcome kit karyawan",
+    copy: "Kesan profesional untuk onboarding dan corporate gift klien.",
     size: "small",
   },
 ]

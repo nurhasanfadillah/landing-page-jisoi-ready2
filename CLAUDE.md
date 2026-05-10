@@ -176,6 +176,14 @@ Skills listed here will be **automatically loaded** when working on related task
 | `bmad-bmb-setup` | Project setup needed | claude | Sets up BMad Builder module in a project |
 | `shadcn-ui` | UI component work | agents | Radix UI + Tailwind components |
 
+### 📊 Marketing Strategy Skills
+
+| Skill | Trigger | Source | Description |
+|-------|---------|--------|-------------|
+| `marketing-strategy-fundamentals` | Strategi marketing, bikin campaign, demand capture/generation, funnel, target audience, channel, sebelum iklan/konten | claude | ⭐ FONDASI: Framework lengkap — product discovery, demand capture vs generation, purchase mode, trigger, awareness level (5 level), CEP, non-linear journey, 7P, 16-step pre-campaign workflow |
+| `marketing-psychology` | Psychological principles, mental models, persuasion, why people buy | agents | 40+ mental models & behavioral science |
+| `product-marketing-context` | ICP, positioning, target audience, product context setup | agents | Foundational positioning & ICP document |
+
 ### 🎨 Design & Copy Skills
 
 | Skill | Trigger | Source | Description |
@@ -248,6 +256,10 @@ Skills listed here will be **automatically loaded** when working on related task
 | Add new page/section | `frontend-design`, `landing-page-design` | agents |
 | Performance optimization | `bmad-testarch-nfr` | claude |
 | Set up project | `bmad-bmb-setup` | claude |
+| Strategi marketing dari nol | `marketing-strategy-fundamentals`, `product-marketing-context` | claude + agents |
+| Demand capture strategy | `marketing-strategy-fundamentals`, `copywriting` | claude + opencode |
+| Demand generation strategy | `marketing-strategy-fundamentals`, `copywriting`, `ad-creative` | claude + opencode |
+| Sebelum bikin campaign/iklan | `marketing-strategy-fundamentals` | claude |
 | Marketing copy | `copywriting`, `ad-creative` | opencode |
 | SEO optimization | `seo`, `seo-page`, `ai-seo` | opencode |
 

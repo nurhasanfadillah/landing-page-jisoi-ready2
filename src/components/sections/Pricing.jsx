@@ -41,7 +41,12 @@ export default function Pricing() {
                 </span>
                 <span className="text-sm text-white/60">{plan.unit}</span>
               </div>
-              <p className="text-sm text-white/70 mb-6">{plan.bestFor}</p>
+              <p className="text-sm text-white/70 mb-3">{plan.bestFor}</p>
+              {plan.estimasi && (
+                <p className="text-xs text-jisoi-amber/80 mb-6 flex items-center gap-1">
+                  <span>⏱</span> {plan.estimasi}
+                </p>
+              )}
               <Button
                 className="w-full bg-jisoi-amber text-jisoi-burgundy hover:bg-jisoi-amber/90"
                 asChild
