@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(netlify sites:list)",
+      "Bash(netlify site:list)"
+    ]
+  }
+}
